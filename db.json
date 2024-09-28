@@ -1,0 +1,735 @@
+{
+    "tourism_data": [
+      {
+        "city": "Paris",
+        "country": "France",
+        "visitors": 19.1,
+        "currency": "Euro",
+        "popular_attractions": [
+          {
+            "name": "Eiffel Tower",
+            "description": "Iconic iron lattice tower offering stunning views.",
+            "entry_fee": 25.00,
+            "opening_hours": "09:00 - 23:00"
+          },
+          {
+            "name": "Louvre Museum",
+            "description": "World's largest art museum, home to the Mona Lisa.",
+            "entry_fee": 17.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "Montmartre",
+            "description": "Historic district known for its artistic history.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Barcelona",
+        "country": "Spain",
+        "visitors": 12.3,
+        "currency": "Euro",
+        "popular_attractions": [
+          {
+            "name": "Sagrada Familia",
+            "description": "Famous basilica designed by Antoni Gaudí.",
+            "entry_fee": 26.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "Park Güell",
+            "description": "Colorful park with Gaudí's architectural designs.",
+            "entry_fee": 10.00,
+            "opening_hours": "09:30 - 19:30"
+          },
+          {
+            "name": "La Rambla",
+            "description": "Lively street filled with shops, cafes, and performers.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "New York",
+        "country": "United States",
+        "visitors": 62.8,
+        "currency": "USD",
+        "popular_attractions": [
+          {
+            "name": "Statue of Liberty",
+            "description": "Symbol of freedom and democracy, located on Liberty Island.",
+            "entry_fee": 24.50,
+            "opening_hours": "08:30 - 16:00"
+          },
+          {
+            "name": "Central Park",
+            "description": "Large public park offering various recreational activities.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Times Square",
+            "description": "Famous commercial and entertainment hub known for its bright lights.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Rome",
+        "country": "Italy",
+        "visitors": 10.5,
+        "currency": "Euro",
+        "popular_attractions": [
+          {
+            "name": "Colosseum",
+            "description": "Ancient amphitheater known for gladiatorial contests.",
+            "entry_fee": 18.00,
+            "opening_hours": "09:00 - 19:00"
+          },
+          {
+            "name": "Vatican City",
+            "description": "Home of the Pope and St. Peter's Basilica.",
+            "entry_fee": 0.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "Piazza Navona",
+            "description": "Famous square with beautiful fountains and architecture.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Beijing",
+        "country": "China",
+        "visitors": 10.8,
+        "currency": "Yuan",
+        "popular_attractions": [
+          {
+            "name": "Great Wall",
+            "description": "Historic wall stretching over 13,000 miles.",
+            "entry_fee": 40.00,
+            "opening_hours": "07:30 - 18:00"
+          },
+          {
+            "name": "Forbidden City",
+            "description": "Imperial palace with stunning architecture and rich history.",
+            "entry_fee": 14.00,
+            "opening_hours": "08:30 - 17:00"
+          },
+          {
+            "name": "Temple of Heaven",
+            "description": "A religious complex known for its beautiful architecture.",
+            "entry_fee": 10.00,
+            "opening_hours": "06:00 - 18:00"
+          }
+        ]
+      },
+      {
+        "city": "Dubai",
+        "country": "UAE",
+        "visitors": 16.7,
+        "currency": "Dirham",
+        "popular_attractions": [
+          {
+            "name": "Burj Khalifa",
+            "description": "Tallest building in the world with observation decks.",
+            "entry_fee": 40.00,
+            "opening_hours": "08:30 - 23:00"
+          },
+          {
+            "name": "Dubai Mall",
+            "description": "Largest shopping mall with an aquarium and ice rink.",
+            "entry_fee": 0.00,
+            "opening_hours": "10:00 - 00:00"
+          },
+          {
+            "name": "Palm Jumeirah",
+            "description": "Man-made island known for its luxury hotels.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "London",
+        "country": "United Kingdom",
+        "visitors": 20.2,
+        "currency": "Pound",
+        "popular_attractions": [
+          {
+            "name": "Big Ben",
+            "description": "Iconic clock tower located at the Palace of Westminster.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "British Museum",
+            "description": "Museum featuring a vast collection of world art and artifacts.",
+            "entry_fee": 0.00,
+            "opening_hours": "10:00 - 17:30"
+          },
+          {
+            "name": "Tower of London",
+            "description": "Historic castle and former prison, home to the Crown Jewels.",
+            "entry_fee": 30.00,
+            "opening_hours": "09:00 - 17:30"
+          }
+        ]
+      },
+      {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "visitors": 39.9,
+        "currency": "Baht",
+        "popular_attractions": [
+          {
+            "name": "Grand Palace",
+            "description": "Former royal residence known for its opulent architecture.",
+            "entry_fee": 500.00,
+            "opening_hours": "08:30 - 15:30"
+          },
+          {
+            "name": "Wat Pho",
+            "description": "Temple known for its giant reclining Buddha statue.",
+            "entry_fee": 200.00,
+            "opening_hours": "08:00 - 18:30"
+          },
+          {
+            "name": "Chatuchak Market",
+            "description": "Largest market in Thailand, famous for its variety of goods.",
+            "entry_fee": 0.00,
+            "opening_hours": "09:00 - 18:00"
+          }
+        ]
+      },
+      {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "visitors": 14.7,
+        "currency": "Lira",
+        "popular_attractions": [
+          {
+            "name": "Hagia Sophia",
+            "description": "Former church and mosque, now a museum known for its stunning dome.",
+            "entry_fee": 200.00,
+            "opening_hours": "09:00 - 19:00"
+          },
+          {
+            "name": "Topkapi Palace",
+            "description": "Former palace of Ottoman sultans with rich history and artifacts.",
+            "entry_fee": 200.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Blue Mosque",
+            "description": "Famous mosque known for its blue tiles and impressive architecture.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Singapore",
+        "country": "Singapore",
+        "visitors": 19.1,
+        "currency": "SGD",
+        "popular_attractions": [
+          {
+            "name": "Marina Bay Sands",
+            "description": "Iconic hotel with a rooftop infinity pool and observation deck.",
+            "entry_fee": 20.00,
+            "opening_hours": "10:00 - 22:00"
+          },
+          {
+            "name": "Gardens by the Bay",
+            "description": "Futuristic gardens with Supertree structures and cloud forest.",
+            "entry_fee": 28.00,
+            "opening_hours": "05:00 - 02:00"
+          },
+          {
+            "name": "Sentosa Island",
+            "description": "Resort island with beaches, attractions, and adventure parks.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Los Angeles",
+        "country": "United States",
+        "visitors": 50.5,
+        "currency": "USD",
+        "popular_attractions": [
+          {
+            "name": "Hollywood Sign",
+            "description": "Famous landmark overlooking the city.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Disneyland",
+            "description": "Famous theme park known as 'The Happiest Place on Earth.'",
+            "entry_fee": 120.00,
+            "opening_hours": "08:00 - 22:00"
+          },
+          {
+            "name": "Venice Beach",
+            "description": "Popular beach known for its boardwalk and vibrant atmosphere.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Sydney",
+        "country": "Australia",
+        "visitors": 14.1,
+        "currency": "AUD",
+        "popular_attractions": [
+          {
+            "name": "Sydney Opera House",
+            "description": "Famous performing arts venue with a unique design.",
+            "entry_fee": 40.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Harbour Bridge",
+            "description": "Iconic bridge offering scenic views and walking paths.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Bondi Beach",
+            "description": "Famous beach known for surfing and coastal walks.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Mumbai",
+        "country": "India",
+        "visitors": 8.0,
+        "currency": "Rupee",
+        "popular_attractions": [
+          {
+            "name": "Gateway of India",
+            "description": "Historic archway overlooking the Arabian Sea.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Marine Drive",
+            "description": "Promenade known as the 'Queen's Necklace' at night.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Chhatrapati Shivaji Terminus",
+            "description": "Historic railway station and UNESCO World Heritage site.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "visitors": 13.3,
+        "currency": "Ringgit",
+        "popular_attractions": [
+          {
+            "name": "Petronas Towers",
+            "description": "Iconic twin skyscrapers and a symbol of modern Malaysia.",
+            "entry_fee": 80.00,
+            "opening_hours": "09:00 - 21:00"
+          },
+          {
+            "name": "Batu Caves",
+            "description": "Hindu temple set in limestone caves with a giant statue.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "KL Tower",
+            "description": "Tall communications tower with observation deck.",
+            "entry_fee": 65.00,
+            "opening_hours": "09:00 - 22:00"
+          }
+        ]
+      },
+      {
+        "city": "Moscow",
+        "country": "Russia",
+        "visitors": 5.9,
+        "currency": "Ruble",
+        "popular_attractions": [
+          {
+            "name": "Red Square",
+            "description": "Historic square featuring St. Basil's Cathedral.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Kremlin",
+            "description": "Fortress and government complex with museums.",
+            "entry_fee": 1000.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "Saint Basil's Cathedral",
+            "description": "Famous church with colorful onion domes.",
+            "entry_fee": 700.00,
+            "opening_hours": "10:00 - 18:00"
+          }
+        ]
+      },
+      {
+        "city": "Toronto",
+        "country": "Canada",
+        "visitors": 14.5,
+        "currency": "CAD",
+        "popular_attractions": [
+          {
+            "name": "CN Tower",
+            "description": "Iconic tower with observation deck and glass floor.",
+            "entry_fee": 38.00,
+            "opening_hours": "09:00 - 22:00"
+          },
+          {
+            "name": "Royal Ontario Museum",
+            "description": "Museum with natural history and world cultures exhibits.",
+            "entry_fee": 23.00,
+            "opening_hours": "10:00 - 17:30"
+          },
+          {
+            "name": "Toronto Islands",
+            "description": "Group of small islands offering parks and beaches.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Cairo",
+        "country": "Egypt",
+        "visitors": 12.0,
+        "currency": "Pound",
+        "popular_attractions": [
+          {
+            "name": "Pyramids of Giza",
+            "description": "Ancient pyramids, one of the Seven Wonders of the Ancient World.",
+            "entry_fee": 200.00,
+            "opening_hours": "08:00 - 17:00"
+          },
+          {
+            "name": "Egyptian Museum",
+            "description": "Museum housing an extensive collection of ancient Egyptian artifacts.",
+            "entry_fee": 200.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Khan El Khalili",
+            "description": "Famous market known for traditional crafts and souvenirs.",
+            "entry_fee": 0.00,
+            "opening_hours": "09:00 - 21:00"
+          }
+        ]
+      },
+      {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "visitors": 6.6,
+        "currency": "Real",
+        "popular_attractions": [
+          {
+            "name": "Christ the Redeemer",
+            "description": "Iconic statue overlooking the city from Corcovado Mountain.",
+            "entry_fee": 40.00,
+            "opening_hours": "08:00 - 19:00"
+          },
+          {
+            "name": "Sugarloaf Mountain",
+            "description": "Famous peak with cable car access and stunning views.",
+            "entry_fee": 28.00,
+            "opening_hours": "08:00 - 19:00"
+          },
+          {
+            "name": "Copacabana Beach",
+            "description": "Famous beach known for its vibrant atmosphere and nightlife.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "visitors": 4.2,
+        "currency": "Peso",
+        "popular_attractions": [
+          {
+            "name": "Recoleta Cemetery",
+            "description": "Famous cemetery known for its elaborate tombs.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "La Boca",
+            "description": "Colorful neighborhood famous for tango and art.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Tango Shows",
+            "description": "Live performances showcasing traditional Argentine tango.",
+            "entry_fee": 60.00,
+            "opening_hours": "Evenings"
+          }
+        ]
+      },
+      {
+        "city": "Seoul",
+        "country": "South Korea",
+        "visitors": 10.5,
+        "currency": "Won",
+        "popular_attractions": [
+          {
+            "name": "Gyeongbokgung Palace",
+            "description": "Main royal palace of the Joseon dynasty.",
+            "entry_fee": 3.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "N Seoul Tower",
+            "description": "Communication and observation tower with panoramic views.",
+            "entry_fee": 10.00,
+            "opening_hours": "10:00 - 22:00"
+          },
+          {
+            "name": "Myeongdong",
+            "description": "Popular shopping district known for street food and cosmetics.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "visitors": 18.5,
+        "currency": "Euro",
+        "popular_attractions": [
+          {
+            "name": "Rijksmuseum",
+            "description": "Museum showcasing Dutch art and history.",
+            "entry_fee": 20.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Van Gogh Museum",
+            "description": "Museum dedicated to the works of Vincent van Gogh.",
+            "entry_fee": 19.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Anne Frank House",
+            "description": "Museum dedicated to Jewish wartime diarist Anne Frank.",
+            "entry_fee": 12.50,
+            "opening_hours": "09:00 - 22:00"
+          }
+        ]
+      },
+      {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "visitors": 6.2,
+        "currency": "Euro",
+        "popular_attractions": [
+          {
+            "name": "Belém Tower",
+            "description": "Historic tower located on the Tagus River.",
+            "entry_fee": 6.00,
+            "opening_hours": "10:00 - 17:30"
+          },
+          {
+            "name": "Jerónimos Monastery",
+            "description": "UNESCO World Heritage site featuring Manueline architecture.",
+            "entry_fee": 10.00,
+            "opening_hours": "10:00 - 17:30"
+          },
+          {
+            "name": "Alfama District",
+            "description": "Oldest district in Lisbon known for its narrow streets.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Santiago",
+        "country": "Chile",
+        "visitors": 3.6,
+        "currency": "Peso",
+        "popular_attractions": [
+          {
+            "name": "Cerro San Cristóbal",
+            "description": "Hill with a statue of the Virgin Mary and panoramic views.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Plaza de Armas",
+            "description": "Main square with historic buildings and local life.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Museo Chileno de Arte Precolombino",
+            "description": "Museum featuring pre-Columbian art and artifacts.",
+            "entry_fee": 6.00,
+            "opening_hours": "10:00 - 18:30"
+          }
+        ]
+      },
+      {
+        "city": "Nairobi",
+        "country": "Kenya",
+        "visitors": 2.4,
+        "currency": "Shilling",
+        "popular_attractions": [
+          {
+            "name": "Nairobi National Park",
+            "description": "Unique wildlife park located just outside the city.",
+            "entry_fee": 43.00,
+            "opening_hours": "06:00 - 18:00"
+          },
+          {
+            "name": "Giraffe Centre",
+            "description": "Conservation center for the endangered Rothschild giraffe.",
+            "entry_fee": 15.00,
+            "opening_hours": "09:00 - 17:00"
+          },
+          {
+            "name": "Karen Blixen Museum",
+            "description": "Museum dedicated to the author of 'Out of Africa.'",
+            "entry_fee": 12.00,
+            "opening_hours": "09:30 - 17:00"
+          }
+        ]
+      },
+      {
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "visitors": 4.2,
+        "currency": "Shekel",
+        "popular_attractions": [
+          {
+            "name": "Tel Aviv Port",
+            "description": "Vibrant area with shops, restaurants, and beaches.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Carmel Market",
+            "description": "Famous market known for its fresh produce and local delicacies.",
+            "entry_fee": 0.00,
+            "opening_hours": "07:00 - 21:00"
+          },
+          {
+            "name": "Old Jaffa",
+            "description": "Historic district with ancient architecture and art galleries.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Cartagena",
+        "country": "Colombia",
+        "visitors": 2.1,
+        "currency": "Peso",
+        "popular_attractions": [
+          {
+            "name": "Walled City",
+            "description": "Historic colonial city surrounded by walls.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Castillo San Felipe",
+            "description": "Fortress with historical significance and great views.",
+            "entry_fee": 20.00,
+            "opening_hours": "08:00 - 18:00"
+          },
+          {
+            "name": "Rosario Islands",
+            "description": "Beautiful islands known for their beaches and snorkeling.",
+            "entry_fee": 30.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "visitors": 3.0,
+        "currency": "Birr",
+        "popular_attractions": [
+          {
+            "name": "National Museum",
+            "description": "Home to the famous fossil 'Lucy' and other artifacts.",
+            "entry_fee": 5.00,
+            "opening_hours": "09:00 - 18:00"
+          },
+          {
+            "name": "Holy Trinity Cathedral",
+            "description": "Stunning cathedral and burial site of Emperor Haile Selassie.",
+            "entry_fee": 3.00,
+            "opening_hours": "08:00 - 18:00"
+          },
+          {
+            "name": "Mercato",
+            "description": "One of Africa's largest open-air markets.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          }
+        ]
+      },
+      {
+        "city": "Algiers",
+        "country": "Algeria",
+        "visitors": 2.2,
+        "currency": "Dinar",
+        "popular_attractions": [
+          {
+            "name": "Kasbah",
+            "description": "Historic medina with narrow streets and traditional architecture.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Basilica of Notre-Dame",
+            "description": "Beautiful basilica offering views of the city.",
+            "entry_fee": 0.00,
+            "opening_hours": "Open 24 hours"
+          },
+          {
+            "name": "Museum of Antiquities",
+            "description": "Museum showcasing ancient artifacts from Algeria's history.",
+            "entry_fee": 5.00,
+            "opening_hours": "09:00 - 17:00"
+          }
+        ]
+      }
+    ]
+  }
+  
+  
+  
